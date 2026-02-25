@@ -7,6 +7,7 @@ QRコードをターミナルに出力します.
 プログラムの実行にあたり，`libqrencode`を導入しておいてください．Windows環境では`vcpkg`を利用して導入してください．
 
 ```sh
+cd C:\
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
 bootstrap-vcpkg.bat
