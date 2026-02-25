@@ -29,9 +29,9 @@ vcpkg install libqrencode
 
 ## ビルド
 ### Windows
-`libqrencode`の`include`および`lib`のディレクトリを指定する必要があります．
+`libqrencode`の`include`および`bin`のディレクトリを指定する必要があります．
 ```sh
-g++ main.cpp -o TerminalQR -I C:/vcpkg/installed/x64-windows/include -LC:/vcpkg/installed/x64-windows/lib -lqrencode
+g++ main.cpp -o TerminalQR -I C:/vcpkg/installed/x64-windows/include -LC:/vcpkg/installed/x64-windows/bin -lqrencode
 ```
 
 ### Linux, Mac
